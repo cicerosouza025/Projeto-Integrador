@@ -1,0 +1,16 @@
+<h1>{{ title }}</h1>
+
+  <div class="row d-flex justify-content-center bigbox">
+    <div class="col-xs-2 col-md-3 m-2 mt-4 pt-1" *ngFor="let planta of minhasPlantas">
+      <h2> {{ planta.nome }} </h2>
+      <p> {{ planta.descricao }} </p>
+      <img src="{{ planta.imagePath }}" alt="" class="img">
+      <hr>
+      <a href="#">Mais detalhes</a>
+    </div>
+    <div class="row bottom-row">
+        <a class="btn btn-light" href="#">Próxima página</a>
+    </div>
+    
+  </div>
+

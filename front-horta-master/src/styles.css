@@ -1,0 +1,402 @@
+
+/* ----------| ALL |---------- */
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  background-color: #373B4D;
+}
+
+h1 {
+  color: #ECE7DA;
+  font-family: Anton;
+}
+
+h1::after {
+  content: '';
+  background: #E5F77D;
+  width: 100%;
+  height: 4px;
+  margin: auto;
+  display: block;
+}
+
+.minhaconta::after {
+  content: '';
+  background: transparent;
+  width: 100%;
+  height: 4px;
+  margin: auto;
+  display: block;
+}
+
+.btn-primary {
+  background-color: #ECE7DA;
+  border-radius: 12px;
+  border-color: #ECE7DA;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+  color: #373B4D !important;
+}
+
+.btn-primary:hover {
+  background-color: #b9b4a7;
+  border-color: #b9b4a7;
+}
+
+.cont-login::after {
+  content: '';
+  background: #E5F77D;
+  width: 100%;
+  height: 4px;
+  margin: auto;
+  display: block;
+}
+
+label {
+  color: #ECE7DA;
+  font-family: 'Heebo', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.floatbox {
+  position: absolute;
+  width: 80vw;
+  height: 80%;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  box-shadow: 12px 12px 30px #1B1E27, -12px -12px 15px #474B5F;
+  border-radius: 12px;
+  margin: auto;
+  padding: 30px;
+}
+
+#form-inscreva-se {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.google-form {
+  position: absolute;
+}
+
+.google-form::before {
+  content: '';
+  background: #E5F77D;
+  width: 100%;
+  height: 4px;
+  margin: auto;
+  display: block;
+}
+
+form {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.small-tex {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+/* ----------| HOME |---------- */
+.home-body {
+  background-image: url("./assets/images/arnaldo-aldana-home.jpg");
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-subtitle {
+  position: absolute;
+  left: 40%;
+  top: 65%;
+  font-family: Anton;
+  font-size: 25px;
+  color: transparent;
+  animation: color 0.5s ease forwards 4.5s;
+}
+
+/* ----------| NAVBAR |---------- */
+
+.navbar-brand_name {
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  color: #E5F77D;
+}
+
+.navbar-logo {
+  left: 10%;
+  width: 25%;
+}
+
+a {
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ECE7DA;
+
+}
+
+a:hover {
+  color: #ECE7DA !important;
+}
+
+.navbar-btn-enter {
+  background-color: #E5F77D;
+}
+
+
+
+/* ----------| BOOTSTRAP SOBRESCRITO |----------*/
+
+.btn:hover {
+  color: #F4935C;
+}
+
+.btn {
+  color: #F4935C;
+}
+
+.navbar-btn-enter-txt {
+  color: #F4935C !important;
+}
+
+.navbar-toggler {
+  color: #ECE7DA;
+}
+
+.navbar-toggler-icon {
+  color: #ECE7DA;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-color: #f5ff86;
+  text-decoration-thickness: 2px;
+}
+
+.bg-dark {
+  background-color: #373B4D !important;
+  width: auto;
+}
+
+.btn-success {
+  background-color: #E5F77D;
+  border-radius: 20px;
+  border-color: #E5F77D;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-success:hover {
+  border-color: #bdd14e;
+  border-radius: 20px;
+  background-color: #bdd14e;
+}
+
+/* ------------------------------------------- */
+
+
+/* ----------| FOOTER |---------- */
+
+.footer {
+  background: #C9AF97;
+  position: absolute;
+  top: 100vh;
+  width: 100%;
+}
+
+.footer-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 18px;
+  color: #373B4D;
+}
+
+.footer-links {
+  font-family: 'Heebo', sans-serif;
+  font-size: 14px;
+  color: #373B4D;
+}
+
+.footer-brand_name {
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  color: #373B4D;
+}
+
+.footer-social_media {
+  width: 30px;
+}
+
+.footer-logo {
+  width: 5%;
+}
+
+.footer-end::before {
+  content: '';
+  background: #E5F77D;
+  width: 96%;
+  height: 4px;
+  margin: auto;
+  display: block;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .home-subtitle {
+    top: 33%;
+    left: 38.5%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .footer-social_media {
+    width: 30px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  /* ----------| HOME |---------- */
+
+  .home-subtitle {
+    left: 30%;
+    top: 75%;
+    font-size: 40px;
+  }
+
+  .navbar-brand_name {
+    font-size: 40px;
+  }
+
+  /* ----------| NAVBAR |-----------*/
+
+  .navbar-links {
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+  }
+
+  /* ----------| FOOTER |---------- */
+
+  .footer-title {
+    font-size: 24px;
+  }
+
+  .footer-links {
+    font-size: 16px;
+  }
+
+  .footer-brand_name {
+    font-size: 30px;
+  }
+
+  .footer-social_media {
+    width: 50px;
+  }
+
+  .footer-logo {
+    width: 3%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  /* ----------| HOME |---------- */
+
+  .home-subtitle {
+    left: 38%;
+    top: 70%;
+  }
+
+  .content-footer {
+    top: 720px;
+    width: 100%;
+  }
+}
+
+/* ----------| ANIMAÇÃO |---------- */
+
+#logotipo {
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  width: 80%;
+  animation: fill 0.5s ease forwards 4s;
+}
+
+#logotipo path:nth-child(1) {
+  stroke-dasharray: 1187.39990234375px;
+  stroke-dashoffset: 1187.39990234375px;
+  animation: line-anim 3s ease forwards 0.5s;
+}
+
+#logotipo path:nth-child(2) {
+  stroke-dasharray: 1038.6124267578125px;
+  stroke-dashoffset: 1038.6124267578125px;
+  animation: line-anim 3s ease forwards 0.8s;
+}
+
+#logotipo path:nth-child(3) {
+  stroke-dasharray: 1125.2177734375px;
+  stroke-dashoffset: 1125.2177734375px;
+  animation: line-anim 3s ease forwards 1.1s;
+}
+
+#logotipo path:nth-child(4) {
+  stroke-dasharray: 741px;
+  stroke-dashoffset: 741px;
+  animation: line-anim 3s ease forwards 1.4s;
+}
+
+#logotipo path:nth-child(5) {
+  stroke-dasharray: 1107.779296875px;
+  stroke-dashoffset: 1107.779296875px;
+  animation: line-anim 3s ease forwards 1.7s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+
+  to {
+    fill: #E5F77D;
+  }
+
+}
+
+@keyframes color {
+  from {
+    color: transparent;
+  }
+
+  to {
+    color: #ECE7DA;
+  }
+
+}

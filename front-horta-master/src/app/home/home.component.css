@@ -1,0 +1,21 @@
+ .home-body {
+  background-image: url("../../assets/images/arnaldo-aldana-home.jpg");
+  
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-subtitle {
+  position: absolute;
+  left: 40%;
+  top: 65%;
+  font-family: Anton;
+  font-size: 25px;
+  color: transparent;
+  animation: color 0.5s ease forwards 4.5s;
+}

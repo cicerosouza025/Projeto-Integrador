@@ -1,0 +1,36 @@
+ <nav class="navbar navbar-expand-lg container navbar-dark bg-dark mb-4">
+
+   <a class="navbar-brand navbar-brand navbar-brand_name" href="#">
+     <img src="./assets/images/logo-horta.svg" class="img-fluid navbar-logo" alt="Horta logotipo">
+     HORTA
+   </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+
+   <div class="collapse navbar-collapse my-lg-0" id="navbarSupportedContent">
+     <ul class="nav navbar-nav ml-auto bg-dark">
+       <li class="nav-item">
+         <a [routerLink]="['/home']" class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+       </li>
+       <li class="nav-item">
+         <a [routerLink]="['/plantas']" class="nav-link" href="plantas.html">Plantas</a>
+       </li>
+       <li class="nav-item">
+         <a [routerLink]="['/pragas']" class="nav-link" href="pragas.html">Pragas</a>
+       </li>
+       <li class="nav-item">
+         <a [routerLink]="['/inscreva-se']" class="nav-link" href="inscreva-se.html">Inscreva-se</a>
+       </li>
+       <li class="nav-item button">
+         <button type="button" [routerLink]="['/login']" class="btn btn-success navbar-btn-enter">Entrar</button>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">
+           <img src="./assets/images/lupa.svg" alt="">
+         </a>
+       </li>
+     </ul>
+   </div>
+ </nav>
